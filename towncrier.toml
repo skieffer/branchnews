@@ -1,0 +1,37 @@
+[tool.towncrier]
+directory = "changelog.d"
+filename = "CHANGELOG.md"
+start_string = "<!-- towncrier release notes start -->\n"
+underlines = ["", "", ""]
+title_format = "## [{version}](https://github.com/skieffer/branchnews/tree/{version}) - {project_date}"
+issue_format = "[#{issue}](https://github.com/skieffer/branchnews/issues/{issue})"
+
+[[tool.towncrier.type]]
+directory = "changed"
+name = "Breaking Changes"
+showcontent = true
+
+[[tool.towncrier.type]]
+directory = "improved"
+name = "Improvements"
+showcontent = true
+
+[[tool.towncrier.type]]
+directory = "fixed"
+name = "Bug Fixes"
+showcontent = true
+
+[[tool.towncrier.type]]
+directory = "deprecated"
+name = "Deprecated"
+showcontent = true
+
+[[tool.towncrier.type]]
+directory = "removed"
+name = "Removed"
+showcontent = true
+
+[[tool.towncrier.type]]
+directory = "security"
+name = "Security"
+showcontent = true
