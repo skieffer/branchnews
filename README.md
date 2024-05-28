@@ -106,12 +106,12 @@ A session for which there *is* an associated issue number might look like this:
 $ branchnews create
 Issue number (leave blank to use branch name instead): 1234
 What type of news is it?
-(0): security
-(1): removed
-(2): deprecated
-(3): added
-(4): changed
-(5): fixed
+(0): Security
+(1): Removed
+(2): Deprecated
+(3): Added
+(4): Changed
+(5): Fixed
 Type: 3
 Created 1234.added.txt
 Please edit the file to provide a release note.
@@ -128,12 +128,12 @@ Issue number (leave blank to use branch name instead):
 GitHub username: example
 Branch name is fix-that-pesky-bug
 What type of news is it?
-(0): security
-(1): removed
-(2): deprecated
-(3): added
-(4): changed
-(5): fixed
+(0): Security
+(1): Removed
+(2): Deprecated
+(3): Added
+(4): Changed
+(5): Fixed
 Type: 5
 Created example.fix-that-pesky-bug.branchnews.fixed.txt
 Please edit the file to provide a release note.

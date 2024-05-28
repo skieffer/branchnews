@@ -1,0 +1,6 @@
+Improved the dialog in the `branchnews create` command:
+* Warns you if you are on `main` or `master` branch
+* Lists news categories by their full titles
+* Tells you the directory in which the news file can be found
+* Gives hints about the format of the release note
+
